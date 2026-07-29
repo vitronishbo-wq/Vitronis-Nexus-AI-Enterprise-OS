@@ -1,0 +1,6 @@
+{
+  "name": "Vitronis Nexus AI Enterprise OS",
+  "description": "Plataforma empresarial inteligente autónoma com ERP, CRM, IA Executiva, Autopilot, RH, Gestão Documental com Assinatura Digital e QR Code, BI Preditivo e Automações.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
