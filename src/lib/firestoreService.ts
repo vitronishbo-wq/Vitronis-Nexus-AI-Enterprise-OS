@@ -78,10 +78,8 @@ export async function seedInitialFirestoreData() {
 
     // 4. Documents
     const docsSnap = await getDocs(collection(db, COLLECTIONS.DOCUMENTS));
-    if (docsSnap.empty) {
-      for (const d of initialDocuments) {
-        await setDoc(doc(db, COLLECTIONS.DOCUMENTS, d.id), d);
-      }
+    for (const d of initialDocuments) {
+      await setDoc(doc(db, COLLECTIONS.DOCUMENTS, d.id), d, { merge: true });
     }
 
     // 5. Employees

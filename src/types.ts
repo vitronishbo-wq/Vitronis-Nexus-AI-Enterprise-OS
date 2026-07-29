@@ -59,7 +59,8 @@ export interface EnterpriseDocument {
   targetRefNumber?: string; // V/Refª (Sua Referência da Instituição)
   recipientEntity?: string; // Nome da Instituição Estatal ou Empresa
   recipientDepartment?: string; // Direcção / Departamento
-  recipientTitle?: string; // Tratamento / Cargo (ex: Exmo.(a) Senhor(a) Director(a) Nacional)
+  recipientTitle?: string; // Tratamento / Cargo (ex: Exmo. Director Nacional da TTI do SP/MININT-Angola)
+  recipientSubTitle?: string; // Nome / Patente (ex: - Subcomissário Prisional Mauro Inácio Fragoso Almeida)
   recipientContact?: string; // Contactos, Endereço e Email do Destinatário
   author: string;
   signatoryName?: string; // Isabel Truman

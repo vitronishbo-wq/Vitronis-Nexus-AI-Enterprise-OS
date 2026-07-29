@@ -118,6 +118,37 @@ export const initialLeads: LeadCustomer[] = [
 
 export const initialDocuments: EnterpriseDocument[] = [
   {
+    id: 'doc_pnap_01',
+    title: 'Ofício PNAP-AO – Disponibilização para Avaliação Institucional',
+    type: 'oficio_estatal',
+    subject: 'PNAP-AO – Disponibilização para Avaliação Institucional',
+    refNumber: 'VIT/OF/2026/0204',
+    recipientEntity: 'Serviço Penitenciário de Angola',
+    recipientDepartment: 'Direcção Nacional das Telecomunicações e Tecnologias de Informação',
+    recipientTitle: 'Exmo. Director Nacional da TTI do SP/MININT-Angola',
+    recipientSubTitle: '- Subcomissário Prisional Mauro Inácio Fragoso Almeida',
+    recipientContact: 'Avenida 11 de Novembro, Rua Nginga Mbande, Viana. Luanda - Angola | (+244) 930 985 561 | gcii@sp.gov.ao | https://sp.gov.ao/quemsomos',
+    author: 'Isabel Truman - Administradora Geral da Vitronis',
+    signatoryName: 'Isabel Truman',
+    signatoryRole: 'A Administradora-Geral',
+    createdAt: '2026-08-03',
+    version: '1.0',
+    status: 'signed',
+    content: `Exmo. Senhor Director,
+
+Decorrido cerca de um ano desde a nossa última abordagem, vimos informar que, conforme então assumido, a VITRONIS – Robótica e Controlo, Lda. transferiu a sua sede para Luanda (Boa Vida) e a responsabilidade institucional do PNAP-AO passou da MSAEN para uma empresa dedicada exclusivamente à engenharia tecnológica e soluções de missão crítica.
+
+Neste período, aproveitámos para incorporar IA para assistência preditiva, portal público para familiares e advogados, bem como módulo para a PGR junto dos estabelecimentos penitenciários, com funcionamento totalmente offline, desktop e móvel (PWA) e outras capacidades de elevada relevância a serem comprovadas em testes no Estabelecimento Penitenciário de Viana, como antes sugerimos.
+
+Em caso de exiguidade financeira, o custo poderá ser suportado opcionalmente por financiamento externo, com base em contactos por nós já avançados, ficando a Direcção-Geral responsável apenas com os testes em período não superior a 1 semana e eventual implementação.
+
+Solicitamos a gentileza de scanear o QR Code acima e testar livremente a plataforma, utilizando as credenciais persistidas na janela de login.`,
+    hash: 'sha256_e8f90142b87a9091c45610d9842a1256fe9031cba09e123490fae10982736412',
+    signers: [
+      { name: 'Isabel Truman', role: 'A Administradora-Geral da Vitronis', email: 'isabel.truman@vitronis.com', signedAt: '2026-08-03 09:15', status: 'signed' }
+    ]
+  },
+  {
     id: 'doc_01',
     title: 'Ofício de Solicitação de Licenciamento Tecnológico e Infraestrutura IoT',
     type: 'oficio_estatal',
